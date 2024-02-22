@@ -17,12 +17,13 @@ function Navbar() {
             <div>
                 <button className={style.menu} onClick={()=>setMenu(!menu)}>...</button>
                 <ul className={menu?style.openmenu:style.closemenu}>
-                 <li><button onClick={()=>setMenu(!menu)}>x</button></li>  
+                 <li><button className={style.closermenu} onClick={()=>setMenu(!menu)}>x</button></li>  
                  <li><a href="#inicio">inicio</a></li>
                  <li><a href="#proyectos">proyectos</a></li>
                  <li><a href="#cv">CV</a></li>
                  <li><a href="#contacto">contacto</a></li>
                 </ul>
+                PORTAFOLIO
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCBovb9KPf33Cx8qDS6oWP0Xaxi5Eu6uojoQ&usqp=CAU" alt="yo" />                
             </div>
 
